@@ -1,0 +1,19 @@
+To getMomentum function. I will need to check the text values of:
+
+# First block of results
+//*[@id="currentTabContent"]/div[3]/div[2]/table[2]/tbody/tr[1]/td[4]
+//*[@id="currentTabContent"]/div[3]/div[2]/table[2]/tbody/tr[2]/td[4]
+
+
+
+# Second block of results
+//*[@id="currentTabContent"]/div[3]/div[3]/table[2]/tbody/tr[1]/td[4]
+//*[@id="currentTabContent"]/div[3]/div[3]/table[2]/tbody/tr[2]/td[4]
+
+
+Notes:
+
+	- The tr shows the results of every game of a single tournament.
+	- The second div changes the block results from each tournament.
+
+In order to get all the results from a player two while loops should be added.
